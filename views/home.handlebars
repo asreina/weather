@@ -1,0 +1,20 @@
+<div class="home-page" data-aos="fade-in">
+    <h1 style="color: white; margin-top: 4%;" >Enter an adress You want to know the weather for</h1>
+    <form id="getweather" name="getweather" action="/getweather" method="POST">
+        <div class="form-group" style="" >
+            <input class="form-control" id="city" name="city" style="width: 200px; text-align: center;" placeholder="Enter A Location!" />
+        </div>
+        <div class="form-group" style="left: 4px;">
+            <input type="submit" class="btn btn-dark" />
+        </div>
+    </form>
+    
+    <div class="row" style="float: left; color: white;">
+        <div class="col-md-12">
+            <h4>Summary: {{ summary }}</h4>
+            <h4>Temperature: {{ temp }}</h4>
+            <h4>Chance Of Rain: {{ chance }}</h4>
+        </div>  
+    </div>
+
+</div>

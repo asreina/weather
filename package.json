@@ -1,0 +1,31 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather App for nosql class",
+  "main": "weather.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bailey0505/weather-app.git"
+  },
+  "author": "Bailey Rotellini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bailey0505/weather-app/issues"
+  },
+  "homepage": "https://github.com/bailey0505/weather-app#readme",
+  "dependencies": {
+    "dark-sky-api": "^0.6.32",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express3": "0.0.0",
+    "mysql": "^2.17.1",
+    "package.json": "^2.0.1",
+    "request": "^2.88.0"
+  }
+}
